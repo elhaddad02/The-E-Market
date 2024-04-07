@@ -1,0 +1,141 @@
+body{
+    text-align: center;
+}
+.myAllRow .row{
+    background-color: #494d5f;
+    color: #fff;
+    position: inherit;
+}
+#titles{
+    margin-left: 20px;
+}
+h1{
+    font-weight: 700;
+    color: #fff;
+    text-shadow: 1px 1px 2px #eee;
+    font-size: 40px;
+    letter-spacing: -3px;
+    text-align: center;
+}
+h3{
+    font-weight: 700;
+    color: #eee;
+    font-size: 18px;
+    margin-bottom: 8px;
+}
+h2{
+    text-align: center;
+    color: purple;
+    margin-top: 40px;
+    font-size: 25px;
+}
+table {
+    border-spacing: 1;
+    border-collapse: collapse;
+    background: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    width: 80%;
+    margin: 0 auto;
+    position: relative;
+    display: table;
+    border-collapse: separate;
+    box-sizing: border-box;
+    text-indent: initial;
+    border-spacing: 2px;
+    border: none;
+    top: 40px;
+}
+
+thead {
+    background-color: purple;
+    display: table-header-group;
+    vertical-align: middle;
+    border-color: inherit;
+    height: 60px;
+}
+thead tr{
+    color:#EEE
+}
+tbody {
+    display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+table tbody tr {
+    height: 100px;
+    font-family: OpenSans-Regular;
+    font-size: 15px;
+    color: gray;
+    line-height: 1.2;
+    font-weight: unset;
+}
+
+
+tbody tr:nth-child(even) {
+    background-color: #f5f5f5;
+}
+
+/* .row{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    background: rgba(87, 86, 86, 0.3);
+    padding: 8px;
+    width: 99%;
+    /* position: fixed; */
+    /* border-bottom: #e5eaf5 solid 1px; */
+/* } */
+
+.btn{
+    background-color: purple;
+    color: #c8bbde;
+    font-size: 15px;
+    font-weight: bold;
+    border: none;
+    border-radius: 3px;
+    padding: 8px;
+
+}
+/******* carte total panier *******/
+
+    .cart-card {
+    /* text-align: center; */
+      background-color: #f2f2f2;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      padding: 10px;
+      width: 300px;
+      /* margin-right: calc(50% - 300px); */
+
+    }
+
+    .cart-title {
+      font-size: 18px;
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+
+    .cart-total {
+      font-size: 24px;
+      color: purple;
+      text-align: center;
+    }
+
+    .cart-button {
+      background-color: #494d5f;
+      color: white;
+      padding: 10px 20px;
+      text-align: center;
+      text-decoration: none;
+      display: block;
+      margin-top: 10px;
+      border-radius: 4px;
+    }
+
+    .cart-button:hover {
+      background-color: purple;
+    }
+
+

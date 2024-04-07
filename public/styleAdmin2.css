@@ -1,0 +1,183 @@
+/* Styles pour le corps de la page */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Styles pour l'en-tête */
+header {
+  background-color: #494d5f;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+#titles {
+  margin-left: 20px;
+}
+header h1{
+  font-weight: 700;
+    color: #fff;
+    text-shadow: 1px 1px 2px #eee;
+    font-size: 40px;
+    letter-spacing: -3px;
+    text-align: center;
+  
+}
+h3{
+  font-weight: 700;
+  color: silver;
+  font-size: 18px;
+  margin-bottom: 8px;
+  margin: -5px 0 0 0;
+  text-align: center;
+}
+h2{
+  color: purple;
+  margin: 40px 0;
+  font-size: 25px;
+}
+
+header nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+header nav li {
+  margin: 0 10px;
+}
+
+header nav a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Styles pour le contenu principal */
+main {
+  padding: 20px;
+}
+
+#dashboard {
+  margin-bottom: 30px;
+}
+
+.rows {
+  display: flex;
+  justify-content: space-between;
+}
+
+.rows .col {
+  background-color: #f2f2f2;
+  padding: 20px;
+  flex-basis: calc(33.33% - 10px);
+  box-sizing: border-box;
+  text-align: center;
+}
+
+/* Styles pour la section Produits */
+#products {
+  margin-bottom: 30px;
+}
+
+.adm table {
+  text-align: center;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.adm table th,
+.adm table td {
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+.adm table th {
+  background-color: #494d5f;
+  color: #fff;
+}
+
+button {
+  background-color: purple;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+button:hover {
+  background-color: #555;
+}
+
+/* Styles pour le pied de page */
+.adm .foot {
+  background-color: #494d5f;
+  color: #fff;
+  padding: 10px 20px;
+  margin-top: 30px;
+  text-align: center;
+}
+
+/* modifier produit  */
+.content h1 {
+  color: purple;
+
+}
+
+.content {
+  text-align: center;
+  margin-top: 30px;
+
+}
+
+.inp input,
+.inp select {
+  color: #333;
+  width: 400px;
+  height: 40px;
+  outline: none;
+  border: 2px solid #555;
+  border-radius: 0px;
+  font-size: 20px;
+
+}
+.check input{
+  color: #333;
+  width: 30px;
+  height: 30px;
+  outline: none;
+  border: 2px solid #555;
+  border-radius: 0px;
+  margin-right: 40px;
+}
+
+.inp {
+  padding: 10px;
+
+}
+
+#bttn {
+  color: #eee;
+  background-color: purple;
+  width: 200px;
+  border: purple solid 3px;
+  margin: 10px;
+}
+button a{
+  text-decoration: none;
+  color: #fff;
+}
+/* //////////// ALERT ADMIN ////////////////// */
+
+.alert-simple .alert-success
+{
+  color: purple;
+  padding: 9px;
+  /* width: 30%; */
+  text-align: center;
+}
+
